@@ -2,8 +2,8 @@
 var myPetsArray = ["Dog", "Cat"]
 //End of myPetsArray array
 
-function myArrayFunction(myPet) {
-  var myNewPets = [...myPet];
+function myArrayFunction(myPets) {
+  var myNewPets = [...myPets];
   //Only change code below this line
   myNewPets = ["Bird", "Fish"];
 
