@@ -8,7 +8,7 @@ function myBouncer(arr) {
       arr[i] === null ||
       Number.isNaN(arr[i]) ||
       arr[i] === 0 ||
-      arr[i] == "" ||
+      arr[i] ==="" ||
       arr[i] === undefined
     ) {
       arr.splice(i, 1);
