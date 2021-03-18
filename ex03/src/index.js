@@ -5,11 +5,11 @@ var myPetsArray = ["Dog", "Cat"]
 function myArrayFunction(myPets) {
   var myNewPets = [...myPets];
   //Only change code below this line
-  myNewPets = ["Bird", "Fish"];
+  myNewPets.push("Bird", "Fish");
 
 
-  var firstPet = myNewPets[0];
-  var secondPet = myNewPets[1];
+  var firstPet = myNewPets.shift();
+  var secondPet = myNewPets.pop();
   myNewPets.unshift("lion");
 
   return myNewPets;
