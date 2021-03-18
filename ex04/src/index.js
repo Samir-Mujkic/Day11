@@ -3,14 +3,11 @@ var monitorsListArray = ["Apple", "Peach", "Berry"];
 //End of monitorsListArray array
 function myMonitorsFunction(arr) {
 
-  monitorsList = [...arr];
+  newMonitorsList = [...arr];
   monitorsList = [];
   var i;
-  for (i = 0; i < 3; i++) {
-    monitorsList.push ([monitorsListArray[i+0],i+1]);
-    monitorsList.push ([monitorsListArray[i+1],i+2]);
-    monitorsList.push ([monitorsListArray[i+2],i+3]);
-  
+  for (i = 0; i < newMonitorsList.length; i++) {
+    monitorsList.push([newMonitorsList[i], i + 1]);
   return monitorsList;
   
 }
